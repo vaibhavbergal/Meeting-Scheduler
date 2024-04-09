@@ -64,8 +64,8 @@ const Navbar = () => {
           </button>
         </div>
         {isopen ? (
-          <div className="fixed left-0 z-40 w-full h-full bg-white top-24">
-            <div className="mx-10 space-y-5 mt-14">
+          <div className="fixed bottom-0 z-40 w-full h-full bg-white top-24">
+            <div className="mx-10 mt-5 space-y-5">
               <button className="w-full px-5 py-2 font-semibold text-white border border-black rounded-sm md:text-lg hover:border-2 bg-black/75">
                 Sign up
               </button>
@@ -79,7 +79,7 @@ const Navbar = () => {
             </div>
             <div className="flex flex-wrap gap-5 mx-10 mt-10 sm:justify-around font-pop">
               {navheader.map((item) => (
-                <div key={item.id} className="px-5 space-y-5 ">
+                <div key={item.id} className="px-5 space-y-3 ">
                   <h2 className="font-semibold tracking-wider cursor-pointer font-pop">
                     {item.title}
                   </h2>
