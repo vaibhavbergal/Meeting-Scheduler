@@ -48,8 +48,8 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="relative lg:hidden ">
-        <div className="sticky top-0 flex items-center justify-between h-24 mx-8 md:14 md:h-24">
+      <div className={`sticky top-0 z-10 bg-white lg:hidden`}>
+        <div className="flex items-center justify-between h-24 mx-8 md:14 md:h-24">
           <Logo />
           <button onClick={() => setIsOpen(!isopen)} className="">
             {!isopen ? (
@@ -64,7 +64,7 @@ const Navbar = () => {
           </button>
         </div>
         {isopen ? (
-          <div className="absolute z-40 w-full h-screen bg-white top-24">
+          <div className="fixed left-0 z-40 w-full h-full bg-white top-24">
             <div className="mx-10 space-y-5 mt-14">
               <button className="w-full px-5 py-2 font-semibold text-white border border-black rounded-sm md:text-lg hover:border-2 bg-black/75">
                 Sign up
@@ -169,12 +169,12 @@ const Navbar = () => {
           </NavigationMenu>
         </div>
         <div className="flex space-x-4 tracking-wider font-pop">
-          <button className="mr-3 text-sm">Log in</button>
-          <button className="px-5 py-2 font-semibold border border-black rounded-sm text-slate-600">
+          <button className="mr-3 text-sm hover:underline">Log in</button>
+          <button className="px-5 py-2 font-semibold border border-black rounded-sm hover:bg-rose-50 text-slate-600">
             Get a demo
           </button>
 
-          <button className="px-5 py-2 font-semibold text-white border border-black rounded-sm bg-black/75">
+          <button className="px-5 py-2 font-semibold text-white border border-black rounded-sm hover:bg-black/70 bg-black/75">
             Sign up
           </button>
         </div>

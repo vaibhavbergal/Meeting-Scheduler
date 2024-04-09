@@ -10,7 +10,7 @@ const Pricing = () => {
             <p className="text-3xl font-semibold font-pop">$10</p>
             <p className="w-32">per user, per month billed annually</p>
           </div>
-          <button className="px-5 py-3 mt-3 text-lg text-white rounded bg-black/80 font-pop">
+          <button className="px-5 py-3 mt-3 text-lg text-white rounded hover:bg-black/70 bg-black/80 font-pop">
             Start your free trial
           </button>
         </div>
@@ -25,7 +25,7 @@ const Pricing = () => {
             <p className="text-3xl font-semibold font-pop">$17</p>
             <p className="w-32">per user, per month billed annually</p>
           </div>
-          <button className="px-5 py-3 mt-3 text-lg text-white rounded bg-black/80 font-pop">
+          <button className="px-5 py-3 mt-3 text-lg text-white rounded hover:bg-black/70 bg-black/80 font-pop">
             Start your free trial
           </button>
         </div>
