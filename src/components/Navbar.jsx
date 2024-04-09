@@ -10,7 +10,7 @@ import {
   NavigationMenuTrigger,
   NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
-
+import { PopupButton } from "react-calendly";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faEllipsis,
@@ -171,7 +171,11 @@ const Navbar = () => {
         <div className="flex space-x-4 tracking-wider font-pop">
           <button className="mr-3 text-sm hover:underline">Log in</button>
           <button className="px-5 py-2 font-semibold border border-black rounded-sm hover:bg-rose-50 text-slate-600">
-            Get a demo
+            <PopupButton
+              url="https://calendly.com/devil9v9"
+              rootElement={document.getElementById("root")}
+              text="Get a demo"
+            />
           </button>
 
           <button className="px-5 py-2 font-semibold text-white border border-black rounded-sm hover:bg-black/70 bg-black/75">
