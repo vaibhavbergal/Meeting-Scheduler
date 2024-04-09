@@ -70,7 +70,11 @@ const Navbar = () => {
                 Sign up
               </button>
               <button className="w-full px-5 py-2 font-semibold border border-black rounded-sm md:text-lg hover:border-2 text-slate-600">
-                Get a demo
+                <PopupButton
+                  url="https://calendly.com/devil9v9"
+                  rootElement={document.getElementById("root")}
+                  text="Get a demo"
+                />
               </button>
 
               <button className="w-full text-sm text-center lg:mr-3 md:text-base hover:underline">
