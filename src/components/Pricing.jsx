@@ -5,7 +5,7 @@ const Pricing = () => {
     <div className="flex flex-wrap justify-center mt-24 text-sm md:mx-20 lg:mx-20 ">
       <div className="flex flex-wrap gap-4 p-10 rounded-md hover:bg-green-300">
         <div className="">
-          <h1 className="text-3xl font-semibold font-pop">Standard</h1>
+          <h1 className="text-3xl font-semibold font-pop">Standard 🤝</h1>
           <div className="flex gap-4 my-4">
             <p className="text-3xl font-semibold font-pop">$10</p>
             <p className="w-32">per user, per month billed annually</p>
@@ -20,7 +20,7 @@ const Pricing = () => {
       </div>
       <div className="flex flex-wrap gap-5 p-10 rounded-md hover:bg-rose-200">
         <div className="">
-          <h1 className="text-3xl font-semibold font-pop">Pro</h1>
+          <h1 className="text-3xl font-semibold font-pop">Pro 🎸</h1>
           <div className="flex gap-4 my-4">
             <p className="text-3xl font-semibold font-pop">$17</p>
             <p className="w-32">per user, per month billed annually</p>
