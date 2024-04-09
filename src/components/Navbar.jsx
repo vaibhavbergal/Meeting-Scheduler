@@ -77,7 +77,7 @@ const Navbar = () => {
                 Log in
               </button>
             </div>
-            <div className="flex flex-wrap gap-5 mx-10 mt-10 sm:justify-around font-pop">
+            <div className="flex flex-wrap gap-3 mx-10 mt-6 sm:gap-5 sm:justify-around font-pop">
               {navheader.map((item) => (
                 <div key={item.id} className="px-5 space-y-3 ">
                   <h2 className="font-semibold tracking-wider cursor-pointer font-pop">
